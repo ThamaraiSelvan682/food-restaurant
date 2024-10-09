@@ -1,0 +1,231 @@
+html{
+  scroll-behavior:smooth;
+}
+    /* Custom brown background for the navbar */
+    .navbar-custom {
+      background-color: burlywood;
+    }
+    
+    /* Optional: custom color for navbar links */
+    .navbar-custom .nav-link {
+      color: white;
+    }
+
+    .navbar-custom .nav-link:hover{
+        color:black;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    section {
+      padding-top: 60px; /* adjust value based on navbar height */
+    }
+    /* Make the hamburger icon visible in the navbar */
+    .navbar-toggler {
+          border-color: rgba(255, 255, 255, 0.5); /* Optional: Custom color for the hamburger icon border */
+      }
+
+   .navbar-toggler-icon {
+        background-color: white; /* Custom color for the hamburger icon */
+    }
+
+    /* home section */
+    .hero-section {
+        background-image: url('./../public/images/home.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+  
+      .hero-content {
+        background: rgba(0, 0, 0, 0.7); /* Dark overlay to enhance text visibility */
+        padding: 50px;
+        border-radius: 10px;
+      }
+  
+      .hero-section h1 {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+  
+      .hero-section p {
+        font-size: 1.2rem;
+      }
+  
+      .btn-custom {
+        background-color: #e67e22;
+        /* color: white; */
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        /* border-radius: 5px; */
+      }
+      a.btn.btn-custom {
+        color: white;
+        border-radius: 20px;
+        border: 3px solid burlywood;
+    }
+  
+      .btn-custom:hover {
+        background-color: burlywood;
+      }
+      /* menu section */
+      .menu {
+        background-color:#ffe5b4;
+        margin-bottom: 10px;
+      }
+      
+      
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+      }
+      
+      .section-subtitle {
+        font-size: 1.2rem;
+        color: #6c757d;
+      }
+      
+      .card-body {
+        text-align: center;
+        background-color: beige;
+      }
+      
+      .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #ff6347;
+      }
+      
+      .card-text {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+      .card-img-top {
+        width: 100%; /* Make it responsive */
+        height: 200px; /* Set a fixed height */
+        object-fit: cover;
+      }
+      .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+
+      /* features section */
+      
+      .features-section {
+        padding: 60px 0;
+        background-color:#ffe5b4;
+        text-align: center;
+      }
+  
+      .features-section h2 {
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+  
+      .feature-box {
+        margin-bottom: 30px;
+      }
+  
+      .feature-box i {
+        font-size: 3rem;
+        color: #e67e22;
+        margin-bottom: 20px;
+      }
+  
+      .feature-box h4 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+  
+      .feature-box p {
+        font-size: 1rem;
+        color: #777;
+      }
+
+      .features-section{
+         border-bottom: 1px solid white;
+         margin-bottom: 10px; /* adjust margin */
+      }
+
+      /* pricing section */
+      .pricing-section {
+        padding: 60px 0;
+        background-color: #ffe5b4;
+        text-align: center;
+      }
+  
+      .pricing-section h2 {
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+  
+      .pricing-card {
+        border: 1px solid #e3e3e3;
+        border-radius: 10px;
+        padding: 20px;
+        transition: transform 0.2s;
+      }
+  
+      .pricing-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+  
+      .pricing-card h4 {
+        margin: 15px 0;
+        font-size: 1.5rem;
+      }
+  
+      .pricing-card p {
+        font-size: 1.2rem;
+        color: #777;
+      }
+  
+      .pricing-card .price {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #e67e22;
+      }
+
+
+      /* contact section */
+
+      .contact-section {
+        padding: 60px 0;
+        background-color: black;
+        text-align: center;
+      }
+  
+      .contact-section h2 {
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color:bisque;
+      }
+  
+      .contact-info {
+        margin-bottom: 30px;
+      }
+  
+      .contact-info p {
+        font-size: 1.1rem;
+        color: white;
+      }
+  
+      .form-control {
+        margin-bottom: 15px;
+      }
